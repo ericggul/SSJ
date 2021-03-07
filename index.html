@@ -2,17 +2,17 @@
 <html lang = "en" dir = "ltr">
     <head>
         <meta charset = "utf-8">
-        <title> 예약</title>
+        <title> 스잡 :: 스쳐가는 인연을 잡자</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href = "main.css">
     </head>
     <body>
-        <div id = "reservation_main">
-            <h1>예약하기 </h1>
-            <h2>Reservation</h2><br>
-            <form id = "reservation_form">
-                <label for = "number">인원수</label><input type = "number" id = "people"><br>
-                <label for = "text">성명</label><input type = "text" id = "name"><br>
-                <label for = "tel">전화번호</label><input type = "tel" id = "tel"> 
+        <div id = "register_main">
+            <h1>스쳐가는 인연잡기 </h1>
+            <h2>그는 나를 좋아할까?</h2><br>
+            <form id = "register" method = "post" onsubmit = "validateForm()">
+                <label for = "text">나의 이름은</label><input type = "text" id = "name"><br/>
+                <label for = "tel">나의 번호는</label><input type = "tel" id = "tel"> 
                 <input type = "submit" value = "Submit">
             </form>
         </div>
