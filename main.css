@@ -6,14 +6,14 @@
 }
 
 body{
-	background-color: var(--sub-color);
+	background-image: url("img/Lavender1.png");
 	font-family: 'Gothic A1';
 	padding: 50px;
 
 }
 
 #register_main{
-	background-color: var(--main-color);
+	background-color: url("img/Lavender1.png");
 	color: white;
 	height: 50vh;
 	width: 30vw;
